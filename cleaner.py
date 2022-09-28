@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv("result.csv",index_col=0,header=None)
+df=pd.read_csv("crwals/result.csv",index_col=0,header=None)
 
 df.reset_index(inplace=True)
 
