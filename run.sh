@@ -1,4 +1,4 @@
-source commit_machine/bin/activate
+source commit_machine/Scripts/activate
 python __main__.py
 python cleaner.py
 git add .
