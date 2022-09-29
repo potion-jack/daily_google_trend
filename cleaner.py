@@ -15,3 +15,4 @@ df_ans=pd.merge(df_sorted.rate, df_a,
 
 df_ans=df_ans[['name','rate','date']]
 df_ans.to_csv('crwals/cleaned_result.csv')
+
