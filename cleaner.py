@@ -14,5 +14,4 @@ df_ans=pd.merge(df_sorted.rate, df_a,
                 how='left').dropna()
 
 df_ans=df_ans[['name','rate','date']]
-df_ans.to_csv('crwals/cleaned_result.csv')
-
+df_ans.to_csv('crwals/cleaned_result.csv',index=False)

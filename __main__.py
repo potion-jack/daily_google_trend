@@ -1,6 +1,8 @@
+import warnings
+warnings.filterwarnings(action='ignore')
+
 import numpy as np
 from crwals.daily_trend import *
-
 import csv
 today_trends=np.array(trends_retriever())
 
