@@ -1,7 +1,6 @@
 (source commit_machine/bin/activate) || :
 
-conda activate discord_bot_test || :
-
+# conda activate discord_bot_test || :
 
 python __main__.py
 python cleaner.py
