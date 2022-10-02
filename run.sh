@@ -1,4 +1,4 @@
-(source commit_machine/bin/activate) || :
+(source commit_machine/bin/activate) 2>dev/null  || :
 
 # conda activate discord_bot_test || :
 
