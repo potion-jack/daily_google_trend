@@ -3,7 +3,7 @@ if (source commit_machine/bin/activate) ; then
     echo "venv activated"
 
     python __main__.py
-    python clearner.py
+    python cleaner.py
 
     git add .
     git commit -m "in oracle $(date)"
