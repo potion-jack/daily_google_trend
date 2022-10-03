@@ -1,5 +1,3 @@
-f source commit_machine/bin/activate ; then
-
 if (source commit_machine/bin/activate) ; then
     source commit_machine/bin/activate
     echo "venv activated"
