@@ -6,7 +6,7 @@ if (source commit_machine/bin/activate) ; then
     python cleaner.py
 
     git add .
-    git commit -m "in oracle $(date)"
+    git commit -m "in oracle $ date "+%Y-%m-%d""
     git push origin in_oracle
 else
     echo "conda should be activated"
