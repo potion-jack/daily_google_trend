@@ -1,4 +1,4 @@
-if (source commit_machine/bin/activate) ; then
+if (source commit_machine/bin/activate 2>/dev/null) ; then
     source commit_machine/bin/activate
     echo "venv activated"
 
